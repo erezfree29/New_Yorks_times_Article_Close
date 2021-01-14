@@ -97,68 +97,40 @@ nav {
 
 .picture {
   position: relative;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .universe {
-  position: absolute;
-  width: 13%;
-  font-size: 9px;
-  top: 150px;
+  font-size: 11px;
 }
 
 .cosmos {
-  font-size: 9px;
-  width: 20%;
-  position: absolute;
-  left: 210px;
-  top: 150px;
+  font-size: 11px;
 }
 
 .telescope {
-  font-size: 9px;
-  width: 20%;
-  position: absolute;
-  left: 420px;
-  top: 150px;
+  font-size: 11px;
 }
 
 .coffee {
-  font-size: 9px;
-  width: 20%;
-  position: absolute;
-  left: 680px;
-  top: 150px;
+  font-size: 11px;
 }
 
 .time {
-  position: absolute;
-  width: 20%;
-  top: 400px;
   font-size: 11px;
 }
 
 .problem {
-  position: absolute;
-  width: 20%;
-  top: 400px;
   font-size: 11px;
-  left: 230px;
 }
 
 .flactuation {
-  position: absolute;
-  width: 20%;
-  top: 410px;
   font-size: 11px;
-  left: 445px;
 }
 
 .expansion {
-  position: absolute;
-  width: 20%;
-  top: 400px;
   font-size: 11px;
-  left: 680px;
 }
 
 aside {
@@ -373,4 +345,8 @@ a {
 .more_line {
   margin-left: 20%;
   width: 40%;
+}
+
+.picture img {
+  width: 100%;
 }
