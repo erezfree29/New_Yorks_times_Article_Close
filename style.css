@@ -1,13 +1,14 @@
 nav {
   display: flex;
   align-items: center;
-  height: 11vh;
+  height: 14vh;
   justify-content: space-between;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
   position: fixed;
   width: 100%;
   top: 0;
+  background-color: white;
 }
 
 .nav_left {
@@ -21,14 +22,14 @@ nav {
 }
 
 .logo {
-  width: 170px;
-  height: 60px;
+  width: 300px;
+  height: 120px;
 }
 
 .header {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 .gun {
@@ -97,73 +98,46 @@ nav {
 
 .picture {
   position: relative;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .universe {
-  position: absolute;
-  width: 13%;
-  font-size: 9px;
-  top: 150px;
+  font-size: 11px;
 }
 
 .cosmos {
-  font-size: 9px;
-  width: 20%;
-  position: absolute;
-  left: 210px;
-  top: 150px;
+  font-size: 11px;
 }
 
 .telescope {
-  font-size: 9px;
-  width: 20%;
-  position: absolute;
-  left: 420px;
-  top: 150px;
+  font-size: 11px;
 }
 
 .coffee {
-  font-size: 9px;
-  width: 20%;
-  position: absolute;
-  left: 680px;
-  top: 150px;
+  font-size: 11px;
 }
 
 .time {
-  position: absolute;
-  width: 20%;
-  top: 400px;
   font-size: 11px;
 }
 
 .problem {
-  position: absolute;
-  width: 20%;
-  top: 400px;
   font-size: 11px;
-  left: 230px;
 }
 
 .flactuation {
-  position: absolute;
-  width: 20%;
-  top: 410px;
   font-size: 11px;
-  left: 445px;
 }
 
 .expansion {
-  position: absolute;
-  width: 20%;
-  top: 400px;
   font-size: 11px;
-  left: 680px;
 }
 
 aside {
   float: right;
   margin-left: 20px;
+  margin-top: 475px;
 }
 
 .pick_image {
@@ -219,7 +193,7 @@ iframe {
 
 .bottom_section {
   width: 70%;
-  margin-left: 150px;
+  margin-left: 300px;
 }
 
 .bottom_logo {
@@ -233,7 +207,7 @@ iframe {
 .home {
   color: blue;
   position: absolute;
-  left: 1050px;
+  left: 1220px;
 }
 
 .bot_list {
@@ -334,8 +308,8 @@ a {
 .popular {
   position: absolute;
   width: 20%;
-  top: 7051px;
-  left: 1100px;
+  top: 6993px;
+  left: 1170px;
 }
 
 .break_element {
@@ -373,4 +347,29 @@ a {
 .more_line {
   margin-left: 20%;
   width: 40%;
+}
+
+.picture img {
+  width: 80%;
+  height: 50%;
+}
+
+.description {
+  width: 1000px;
+  margin-left: 450px;
+  padding-bottom: 10px;
+}
+
+.about_alen {
+  color: #796679;
+  font-size: 14px;
+}
+
+.rick {
+  color: #796679;
+  font-size: 11px;
+}
+
+.image_text {
+  width: 80%;
 }
