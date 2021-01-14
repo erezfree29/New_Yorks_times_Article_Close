@@ -1,13 +1,14 @@
 nav {
   display: flex;
   align-items: center;
-  height: 11vh;
+  height: 14vh;
   justify-content: space-between;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
   position: fixed;
   width: 100%;
   top: 0;
+  background-color: white;
 }
 
 .nav_left {
@@ -21,8 +22,8 @@ nav {
 }
 
 .logo {
-  width: 170px;
-  height: 60px;
+  width: 250px;
+  height: 100px;
 }
 
 .header {
@@ -136,6 +137,7 @@ nav {
 aside {
   float: right;
   margin-left: 20px;
+  margin-top: 580px;
 }
 
 .pick_image {
@@ -306,7 +308,7 @@ a {
 .popular {
   position: absolute;
   width: 20%;
-  top: 6968px;
+  top: 6953px;
   left: 1170px;
 }
 
