@@ -1,13 +1,14 @@
 nav {
   display: flex;
   align-items: center;
-  height: 11vh;
+  height: 14vh;
   justify-content: space-between;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
   position: fixed;
   width: 100%;
   top: 0;
+  background-color: white;
 }
 
 .nav_left {
@@ -21,8 +22,8 @@ nav {
 }
 
 .logo {
-  width: 170px;
-  height: 60px;
+  width: 250px;
+  height: 100px;
 }
 
 .header {
@@ -136,6 +137,7 @@ nav {
 aside {
   float: right;
   margin-left: 20px;
+  margin-top: 580px;
 }
 
 .pick_image {
@@ -191,7 +193,7 @@ iframe {
 
 .bottom_section {
   width: 70%;
-  margin-left: 150px;
+  margin-left: 300px;
 }
 
 .bottom_logo {
@@ -205,7 +207,7 @@ iframe {
 .home {
   color: blue;
   position: absolute;
-  left: 1050px;
+  left: 1220px;
 }
 
 .bot_list {
@@ -306,7 +308,7 @@ a {
 .popular {
   position: absolute;
   width: 20%;
-  top: 6920px;
+  top: 6953px;
   left: 1170px;
 }
 
@@ -348,5 +350,26 @@ a {
 }
 
 .picture img {
-  width: 100%;
+  width: 80%;
+  height: 50%;
+}
+
+.description {
+  width: 1000px;
+  margin-left: 450px;
+  padding-bottom: 10px;
+}
+
+.about_alen {
+  color: #796679;
+  font-size: 14px;
+}
+
+.rick {
+  color: #796679;
+  font-size: 11px;
+}
+
+.image_text {
+  width: 80%;
 }
