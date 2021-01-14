@@ -191,7 +191,7 @@ iframe {
 
 .bottom_section {
   width: 70%;
-  margin-left: 150px;
+  margin-left: 300px;
 }
 
 .bottom_logo {
@@ -205,7 +205,7 @@ iframe {
 .home {
   color: blue;
   position: absolute;
-  left: 1050px;
+  left: 1220px;
 }
 
 .bot_list {
@@ -306,7 +306,7 @@ a {
 .popular {
   position: absolute;
   width: 20%;
-  top: 6920px;
+  top: 6968px;
   left: 1170px;
 }
 
@@ -348,5 +348,26 @@ a {
 }
 
 .picture img {
-  width: 100%;
+  width: 80%;
+  height: 50%;
+}
+
+.description {
+  width: 1000px;
+  margin-left: 450px;
+  padding-bottom: 10px;
+}
+
+.about_alen {
+  color: #796679;
+  font-size: 14px;
+}
+
+.rick {
+  color: #796679;
+  font-size: 11px;
+}
+
+.image_text {
+  width: 80%;
 }
